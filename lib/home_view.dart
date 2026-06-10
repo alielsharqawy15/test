@@ -5,6 +5,13 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: Center(child: Text('Home')));
+    return const Scaffold(
+      body: Column(
+        children: [
+          Center(child: Text('Home')),
+          Text('Home Ali'),
+        ],
+      ),
+    );
   }
 }
